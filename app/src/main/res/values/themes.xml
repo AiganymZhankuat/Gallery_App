@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GalleryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/onTertiaryContainer</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/errorContainer</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorOnErrorContainer">@color/onErrorContainer</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOnSurfaceInverse">@color/inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/inversePrimary</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+
+
+
+    </style>
+
+    <style name="Theme.GalleryApp" parent="Base.Theme.GalleryApp">
+
+        <item name="windowSplashScreenBackground">@color/icon_light</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
+        <!-- Set the theme of the Activity that follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.GalleryApp</item>
+
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">@color/icon_dark</item>
+    </style>
+
+    <style name="EditTextStyle" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/onSurface</item>
+        <item name="android:textColor">@color/onSurface</item>
+        <item name="textStartPadding">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="singleLine">true</item>
+        <item name="android:layout_marginHorizontal">12dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="drawableTint">@color/onPrimary</item>
+        <item name="android:background">@drawable/selector_edittext</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="AuthorizationTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginBottom">32sp</item>
+        <item name="android:gravity">center|top</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

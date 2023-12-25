@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressButtonView">
+        <attr name="button_title" format="string"/>
+        <attr name="button_back_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ToolbarView">
+        <attr name="start_icon" format="reference"/>
+        <attr name="start_icon_visibility" format="boolean"/>
+        <attr name="trailing_icon" format="reference"/>
+        <attr name="trailing_icon_visibility" format="boolean"/>
+        <attr name="toolbar_title" format="string"/>
+        <attr name="toolbar_back_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="AvatarImageView">
+        <attr name="image" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="cardview_size" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="AuthorizationView">
+        <attr name="authorization_method" format="string"/>
+        <attr name="show_nickname_input" format="boolean"/>
+    </declare-styleable>
+
+</resources>
